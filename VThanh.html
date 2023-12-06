@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+    <title>VThanh Donate</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero-banner">
+        <img src="https://cdn.hqth.me/vthanhtivi.png" alt="" />
+        <h1>DONATE</h1>
+      </div>
+
+      <h3 class="title-donate">
+        Để dự án có thể tiếp tục được duy trì, dự án rất mong nhận được sự ủng
+        hộ từ mọi người. <br />
+        Mọi người có thể ủng hộ cho dự án qua các hình thức sau:
+      </h3>
+
+      <div class="list-item-donate">
+        <div class="item-donate">
+          <h4 class="donate-name">MoMo</h4>
+          <img
+            class="qrcode"
+            src="https://i.ibb.co/mT4TTpQ/momo.png"
+            alt="momo-qr"
+          />
+          <p id="momo" class="sub-donate">0911170510</p>
+        </div>
+        <div class="item-donate">
+          <h4 class="donate-name">ZaloPay</h4>
+          <img
+            class="qrcode"
+            src="https://i.ibb.co/9yLnRYR/zalopay.png"
+            alt="zalopay-qr"
+          />
+          <p id="zalo" class="sub-donate">0911170510</p>
+        </div>
+        <div class="item-donate">
+          <h4 class="donate-name">Viettel Money</h4>
+          <img
+            class="qrcode"
+            src="https://i.ibb.co/8Nd3k02/viettelmoney.png"
+            alt="viettel-qr"
+          />
+          <p id="viettel" class="sub-donate">0911170510</p>
+        </div>
+        <div class="item-donate">
+          <h4 class="donate-name">Vietcombank</h4>
+          <img
+            class="qrcode"
+            src="https://i.ibb.co/9Ywv624/vietcombank.png"
+            alt="vietcombank-qr"
+          />
+          <p id="vietcombank" class="sub-donate">1043041492</p>
+        </div>
+      </div>
+
+      <p class="footer">
+        Tất cả đều có chủ tài khoản
+        <span style="text-decoration: underline; font-weight: 500"
+          >Ngô Văn Thành.</span
+        >
+        <br />
+        Ủng hộ tùy tâm, dự án không bắt buộc phải đóng khoản phí nào khi sử
+        dụng.
+      </p>
+    </div>
+  </body>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "SF Pro Display", sans-serif;
+      background: url(https://i.ibb.co/6Rq7fBQ/Thumbnails.png);
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      backdrop-filter: blur(5px);
+    }
+    p,
+    h1,
+    h3,
+    h4 {
+      letter-spacing: 0.4px;
+      color: #fff;
+    }
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .title-donate {
+      color: #fff;
+      text-align: center;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+    .hero-banner img {
+      width: 150px;
+      object-fit: contain;
+    }
+    .hero-banner h1 {
+      margin: 0;
+      color: #fff;
+      text-align: center;
+      line-height: 10px;
+    }
+    .list-item-donate {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 2rem;
+    }
+    .list-item-donate .item-donate {
+      text-align: center;
+    }
+    .item-donate .donate-name {
+      font-size: 17px;
+    }
+    .item-donate .qrcode {
+      border-radius: 8px;
+    }
+    .item-donate .sub-donate {
+      font-size: 15px;
+    }
+    .footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+    }
+    @media screen and (max-width: 968px) {
+      .container {
+        padding: 0 0.5rem;
+      }
+      .title-donate {
+        font-size: 16px;
+        margin: 2rem 0;
+      }
+      .list-item-donate {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 12px;
+        row-gap: 12px;
+      }
+      .donate-name {
+        margin: 12px 0;
+      }
+      .sub-donate {
+        margin: 4px 0;
+      }
+      .qrcode {
+        max-width: 80%;
+      }
+    }
+  </style>
+</html>
